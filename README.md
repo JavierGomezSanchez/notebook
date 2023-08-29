@@ -9,16 +9,23 @@
 	<li>	delete</li>
 	<li>	...</li>
 
-<h3>xss (Cross-Site scripting)</h3> 
-consiste en inyectar código malicioso en una web, existen 3 tipos:<br>
+<h3>XSS (Cross-Site scripting)</h3> 
+Consiste en inyectar código malicioso en una web, existen 3 tipos:<br>
 			<li>reflected </li>
 			<li>stored</li>
 			<li>dom	</li>
-para evitarlo:<br>
+Para evitarlo:<br>
 			<li>CSP headers</li>
 			<li>HtppOnly headers</li>
 			<li>Validate any app input</li>
 			<li>Sanityze</li>
+
+<h3>CRSF (Cross Site Request Forgery)</h3>
+Un atacante induce a la victima a realizar acciones en una web que el realmente no desea (por ejemplo cambiar password)
+<li>Uso de tokens</li>
+<li>Cabecera HTTP</li>
+Access-Control-Allow-Origin=http://yoursite.com
+   
 <h3>headers</h3>
 	cors (Cross-Origin Resource Sharing)
 		cargar contenido en una web de un servidor externo (diferente url, puerto o protocolo)
