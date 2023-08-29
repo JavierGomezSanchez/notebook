@@ -26,9 +26,8 @@ Un atacante induce a la victima a realizar acciones en una web que el realmente 
 <li>Cabecera HTTP</li>
 Access-Control-Allow-Origin=http://yoursite.com
    
-<h3>headers</h3>
-	cors (Cross-Origin Resource Sharing)
-		cargar contenido en una web de un servidor externo (diferente url, puerto o protocolo)
+<h3>CORS (Cross-Origin Resource Sharing)</h3>
+	Cargar contenido en una web de un servidor externo (diferente url, puerto o protocolo)
  
 <h3>crypto</h3>
 	<li>encryption vs encode (AES,RSA VS ASCII,BASE64)</li>
